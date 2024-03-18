@@ -4,6 +4,9 @@ public class ServicoPrime
 {
     public bool ValidaPrime(int candidato)
     {
-        throw new NotImplementedException("Não implementado");
+        if (candidato == 1)
+            return false;
+
+        throw new NotImplementedException("Parcialmente implementado");
     }
 }
